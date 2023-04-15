@@ -22,7 +22,7 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "npm audit fix --force && react-scripts start",
     "build": "react-scripts build",   
     "eject": "react-scripts eject"
   },
